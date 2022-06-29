@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>mk3008net</Authors>
+    <Description>An extension method library that makes the Query type of SqModel available in Dapper.</Description>
+    <Copyright>mk3008</Copyright>
+    <PackageProjectUrl>https://github.com/mk3008/SqModel.Dapper</PackageProjectUrl>
+    <Version>0.1.0</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/mk3008/SqModel.Dapper.git</RepositoryUrl>
+    <PackageTags>Sql;QueryBuilder;Dapper</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="SqModel" Version="0.2.0" />
+  </ItemGroup>
+
+</Project>
